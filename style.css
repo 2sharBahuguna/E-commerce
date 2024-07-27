@@ -615,34 +615,394 @@ footer .copyright {
     color: #888;
 }
 
+/* shop */
+#page-header{
+    
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column ;
+    padding: 14px;
+}
+
+.shop-header{
+    background-image:url(img/Build-and-Deploy-Ecommerce-Website/img/banner/b1.jpg);
+}
+
+#page-header h1,
+#page-header p{
+    color: #fff;
+}
+
+
+#pagnation
+{
+    text-align: center;
+}
+
+#pagnation a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagnation a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+#prodetails {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#prodetails .small-pro-img {
+    width: 40%;
+    margin-right: 50px;
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 30%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding-top: 0; /* Remove padding to align properly */
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+    outline: none;
+}
+
+#prodetails .single-pro-details button {
+    background-color: #088178; /* Corrected property from background-origin to background-color */
+    color: #fff;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+/* blog.html */
+
+#page-header.blog-header{
+    background-image: url(img/Build-and-Deploy-Ecommerce-Website/img/banner/b19.jpg);
+}
+
+#blog{
+    padding: 150px 150px 0 150px;
+}
+
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 90px;
+}
+
+ #blog .blog-img{
+    width: 50%;
+    margin-right: 80px;
+}
+
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+#blog .blog-details{
+    width: 50%;
+   
+}
+
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    transition: 0.2s;
+}
+
+/* #blog .blog-details a::after{ */
+    /* content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    
+    
+    
+    
+} */
+
+#blog .blog-details a:hover{
+    color: #088178;
+}
+
+#blog .blog-box h1{
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
+
+
+/* about */
+
+.about-header{
+    background-image: url(img/Build-and-Deploy-Ecommerce-Website/img/about/banner.png);
+}
+
+
+#about-head{
+    display: flex;
+    align-items: center;
+}
+
+#about-head img{
+    width: 50%;
+    height: auto;
+}
+#about-head div{
+    padding-left: 40px;
+}
+
+
+#about-app{
+    text-align: center;
+}
+
+#about-app video{
+    width: 70%;
+    height: 100%;
+    margin-top: 30px auto 0 auto;
+}
+
+#about-app .video video{
+    width: 70%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#contact_details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#contact_details .details{
+    width: 40%;
+}
+
+#contact_details .details span{
+    font-size: 12px;
+}
+
+#contact_details .details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact_details .details h2{
+    font-size: 26px;
+    
+    padding-bottom: 15px;
+}
+
+#contact_details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+#contact_details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+#contact_details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+
+#contact_details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact_details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact-form {
+    max-width: 600px;       /* Adjust the max width to fit the design */
+    margin: 0 auto;         /* Center the form horizontally */
+    padding: 20px 20px;     /* Add padding to make the form look better */
+    background: #fff;       /* White background for contrast */
+    border-radius: 8px;     /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  }
+  
+  .contact-form h2 {
+    font-size: 24px;        /* Increase font size for better visibility */
+    margin-bottom: 20px;    /* Space below the heading */
+    text-align: left;       /* Align heading to the left */
+    font-weight: bold;      /* Bold text for the heading */
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;            /* Padding inside the input fields */
+    margin-bottom: 15px;      /* Space between input fields */
+    border: 1px solid #ddd;   /* Light border for input fields */
+    border-radius: 4px;       /* Rounded corners for input fields */
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #aaa;  /* Placeholder text color */
+  }
+  
+  .contact-form button {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 10px;            /* Padding inside the button */
+    background: #000;         /* Black background for the button */
+    color: #fff;              /* White text color for the button */
+    border: none;             /* Remove border from the button */
+    border-radius: 4px;       /* Rounded corners for the button */
+    cursor: pointer;          /* Pointer cursor on hover */
+  }
+  
+  .contact-form button:hover {
+    background: #333;  /* Darker background on hover */
+  }
+  
+
 #mobile{
     display: none;
     align-items: center;
 }
 
+/* Your existing CSS code */
+
 @media (max-width:799px) {
-    #navbar{
+    #navbar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
         top: 0;
-        right: 0px;
+        right: 0;
         height: 100vh;
-        width: -300px;
+        width: 100%; /* Adjust width for smaller screens */
+        max-width: 300px; /* Set a maximum width for better responsiveness */
         background-color: #E3E6F3;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
-        padding: 80px 0 0 10;
+        padding: 80px 0 0 10px;
     }
 
-    #navbar li{
+    #navbar li {
         margin-bottom: 25px;
     }
-S
-    #mobile{
+
+    #mobile {
         display: flex;
         align-items: center;
     }
 
+    /* Additional responsive styles for the hero section */
+    #hero {
+        padding: 0 20px; /* Adjust padding for smaller screens */
+    }
+
+    #hero h4 {
+        padding-top: 100px; /* Adjust padding for h4 element in the hero section */
+    }
+
+    #hero h2 {
+        font-size: 36px; /* Adjust font size for h2 element */
+    }
+
+    #hero h1 {
+        font-size: 54px; /* Adjust font size for h1 element */
+    }
+
+    #hero p {
+        font-size: 14px; /* Adjust font size for p element */
+        padding-top: 20px; /* Adjust top padding for p element */
+    }
+
+    #hero button {
+        padding: 12px 40px; /* Adjust padding for the button */
+    }
+
+    #about-head {
+        flex-direction: column;
+        align-items: center;
+      }
+    #about-head img {
+      width: 100%; /* Adjust image width for smaller screens */
+      margin-bottom: 20px; /* Add space between the image and text on smaller screens */
+    }
+
+    #about-head div {
+      padding: 0 20px; /* Adjust padding for the text content on smaller screens */
+    }
+    
+    #about-app video {
+      width: 100%; /* Ensure the video player spans the full width on smaller screens */
+      height: auto; /* Allow the video player to maintain aspect ratio */
+      margin-top: 20px; /* Adjust top margin for spacing */
+    }
 }
+
+/* You can continue to add responsive styles for other sections as needed */
+
